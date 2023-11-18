@@ -8,7 +8,6 @@ function ToDoList({ tasks }) {
       {tasks.map((task, index) => (
         <Pressable key={index}>
           <View style={styles.task}>
-            {/* Display each task item styled as incomplete. */}
             <Text style={styles.taskText}>{task}</Text>
           </View>
         </Pressable>
